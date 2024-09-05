@@ -1,0 +1,65 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* Navbar styles */
+.navbar {
+    width: 100%;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+/* Content styles */
+.content {
+    margin-top: 60px; /* Adjust this to the height of your navbar */
+    padding: 20px;
+}
+
+/* Background image styles */
+body::before {
+    content: '';
+    position: absolute;
+    top: 60px; /* Adjust this to the height of your navbar */
+    right: 0;
+    bottom: 0;
+    width: 50%; /* Adjust the width as needed */
+    background: url('./images/background_1.png') no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+}

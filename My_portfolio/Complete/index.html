@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="dum_nav1.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/a7e33db924.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Chinni <span class="last-name">Yandapalli</span></h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Certifications</a></li>
+                    <li><a href="#certi">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="social-icons"><a href="https://www.linkedin.com/in/yandapalli-chinni-b9683022b/" target="blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/YandapalliChinni" target="blank"><i class="fa-brands fa-square-github"></i></a>
+                    </li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <section class="wrapper">
+                <div id="stars"></div>
+                <div id="stars2"></div>
+                <div id="stars3"></div>
+                <div id="stars4">
+                    <span></span>
+                </div>
+            </section>
+
+            <div class="header-text">
+                <p>Hello Everyone</p>
+                <h1>I'am <span>Chinni Yandapalli</span><br> from SRM University AP</h1>
+            </div>
+        </div>
+        <span class="image"></span>
+    </div>
+<!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/chinni2.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Highly motivated CS student with Python, C++, and C proficiency. 
+                        Strong in data structures and algorithms, specializing in Big Data Analysis.
+                        My passion for technology fuels my drive to solve problems in dynamic environments.
+                        A quick learner and innovator,Seeks to apply analytical skills and innovative thinking to 
+                        drive impactful projects in full-stack development or data science.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Achievements</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>C, C++, Python, JavaScript</li>
+                            <li><span>Databases</span><br>SQL,MongoDB(NoSQL)</li>
+                            <li><span>Frameworks and libraries</span><br>Pandas, Matplotlib, numpy</li>
+                            <li><span>Tools and Technologies</span><br>VSCode, Excel, Github, Git, HTML, CSS</li>
+                            <li><span>Coursework</span><br>Database Management System, Oops, Operating System, Data Structures and Al
+                                gorithms, Cloud basics, Computer Networks, Software Engineering, Computer
+                                 Organization and Architecture</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Codeswap Solutions Pvt Ltd.</span><br>Worked as a Front end developer for 2 months</li>
+                            <li><span>Insignia Solutions Pvt Ltd.</span><br>Currently worked as a Data Scientist</li>
+                            <li><span>SRM University AP</span><br>Worked as a Research Intern under faculty</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Adobe GenSolve</span><br>Participated in Hackathon and been in top 5% of the participants</li>
+                            <li><span>Biometric Authentication</span><br>Working on an article related to biometric authentication</li>
+                            <li><span>Leetcode</span><br>Solved 100+ problems in leetcode</li>
+                            <li><span>Coding Ninjas</span><br>Solved 50+ problems in coding ninjas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- projects -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Certifications</h1>
+            <div class="project-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>CodeKnight a Codethon</h2>
+                    <p>Participated in CodeKnight Codethon, showcasing exceptional 
+                        problem-solving skills and innovative coding solutions.</p>
+                    <a href="https://drive.google.com/file/d/1GyGa47cJQocJxBJAtyEfOLJlFwKPQgVg/view" target="blank">View Certificate</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Data Analytics</h2>
+                    <p>Completed an extensive Data Analytics course, learning data visualization,
+                     statistical analysis, and ml techniques.</p>
+                    <a href="https://drive.google.com/file/d/1b4PEn7RtIF7CRidKuSbgczhPOW0K5muW/view" target="blank">View Certificate</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-file-code"></i>
+                    <h2>App 2.0 Workshop</h2>
+                    <p>Participated in the App 2.0 workshop, gaining hands-on experience with 
+                    web development techniques and modern frameworks.</p>
+                    <a href="https://drive.google.com/file/d/12xq7lFIN6p01jqLio5ujZqk9ZwPII03h/view" target="blank">View Certificate</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-infinity"></i>
+                    <h2>Math-E-Jung</h2>
+                    <p>Participated in the Math-E-Jung quiz, demonstrating strong analytical 
+                        and problem-solving skills in a competitive environment.</p>
+                    <a href="https://drive.google.com/file/d/1oFHABB-MFSIN8nXAXmbD7GUHPpC_dm-2/view" target="blank">View Certificate</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>Basic of HTML</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Perspiciatis reiciendis quae error? Eligendi quibusdam alias inventore maiores.</p>
+                    <a href="https://drive.google.com/file/d/1Ey3Fbtnehw2a9AgOVgvVrAfuHtpqSJxl/view" target="blank">View Certificate</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Mathlete</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Perspiciatis reiciendis quae error? Eligendi quibusdam alias inventore maiores.</p>
+                    <a href="https://drive.google.com/file/d/1Fpx4tRL1xaT3SkfZ7BzC6kLNFpBtVEAA/view" target="blank">View Certificate</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Certifications -->
+    <div id="certi">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <p class="intro-text">In this section, you will find a showcase of my most notable projects, demonstrating my skills in software development
+                 and problem-solving.Each project highlights my ability to design and implement effective solutions,
+                 leveraging a variety of programming languages and technologies.Dive in to explore my work and
+                 see how I've turned ideas into functional and impactful software solutions.</p>
+            <div class="certi-list">
+                <div class="work">
+                    <img src="./images/project_1.1.png">
+                    <div class="layer">
+                        <h3>Fake News Prediction</h3>
+                        <p>A Logistic Regression Approach to Fake News Classification</p>
+                        <a href="https://github.com/YandapalliChinni/Fake-News-Prediction" target="blank"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/port_2.png">
+                    <div class="layer">
+                        <h3>Calculator app</h3>
+                        <p>Simple Calculations Simplified: Your Everyday Calculator App</p>
+                        <a href="https://github.com/YandapalliChinni/Calculator-App" target="blank"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/lady-justice-2388500_1280.jpg">
+                    <div class="layer">
+                        <h3>Case Code Mapper</h3>
+                        <p>Unravelling Legal Section Codes</p>
+                        <a href="https://github.com/YandapalliChinni/Registration-Form" target="blank"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/port_3.png">
+                    <div class="layer">
+                        <h3>Registration Form</h3>
+                        <p>Seamless Sign-Up: Your Gateway to Quick and Easy Registration</p>
+                        <a href="https://github.com/YandapalliChinni/Registration-Form" target="blank"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/port_7.png">
+                    <div class="layer">
+                        <h3>Analog and Digital Clock</h3>
+                        <p>Time Unveiled: Bridging Tradition and Technology with Analog and Digital Clocks</p>
+                        <a href="https://github.com/YandapalliChinni/Python" target="blank"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/port_1.png">
+                    <div class="layer">
+                        <h3>CRUD APP</h3>
+                        <p>Seamless Workforce Solutions: Creating, Updating, and Managing Employee Records with React and Express</p>
+                        <a href="https://github.com/YandapalliChinni/Registration-Form" target="blank"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/YandapalliChinni?tab=repositories" class="btn" target="blank">See More</a>
+        </div>
+    </div>
+    <!-- contacts -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>chinniyandapalli04@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>8247708236</p>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com/in/yandapalli-chinni-b9683022b"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/Chinni_004?t=VHwocOkVyQdrMLjFY7vlpQ&s=08 "><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://github.com/YandapalliChinni"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="./images/Chinni_resume__Copy_.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Chinni. Made with <i class="fa-solid fa-heart"></i> by Chinni Yandapalli</p>
+        </div>
+    </div>
+    <script src="about2.js"></script>
+    <script src="responsive2.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyAZ7FGiRTYtJnm4Diqi_hceL1xeA3b0CpY",
+          authDomain: "portfolio-94f0c.firebaseapp.com",
+          projectId: "portfolio-94f0c",
+          storageBucket: "portfolio-94f0c.appspot.com",
+          messagingSenderId: "347014612680",
+          appId: "1:347014612680:web:8b7fd8f7fed964a81ec7fd",
+          measurementId: "G-NE1HECLHKE"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+</body>
+</html>
