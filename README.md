@@ -31,4 +31,5 @@ If you’d like to connect, I’m available via email or through my social media
 
 Thank you for taking the time to explore my portfolio! I’m constantly improving and adding new content, so stay tuned for more updates.
 
-Feel free to [contact me](chinniyandapalli04@gmail.com) if you have any feedback or just want to connect!
+Feel free to [email me](mailto:chinniyandapalli04@gmail.com) if you have any feedback or just want to connect!
+
